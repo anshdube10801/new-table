@@ -2,9 +2,9 @@ import DataEditor, {
   // DataEditorProps,
   GridCellKind,
   // GridColumn,
-  GridColumnIcon
+  GridColumnIcon,
 } from "@glideapps/glide-data-grid";
-import { useExtraCells } from "@glideapps/glide-data-grid-cells";
+import { useExtraCells} from "@glideapps/glide-data-grid-cells";
 import "@glideapps/glide-data-grid/dist/index.css";
 import { useCallback, useState } from "react";
 import { Data } from "./data";
@@ -25,9 +25,9 @@ const App = () => {
       id: "name",
       hasMenu: true,
       icon: GridColumnIcon.HeaderString
-    },
+    },  
     {
-      title: "Company",
+      title: "chanchal",
       id: "company",
       hasMenu: true,
       dataType: "Bubble"
@@ -296,9 +296,9 @@ const App = () => {
             }}
           >
             <ul>
-              <li>Action 1</li>
-              <li>Action 2</li>
-              <li>Action 3</li>
+              <li>Add column to right</li>
+              <li>Add column to left</li>
+              <li>Delete</li>
             </ul>
           </div>
         )}
